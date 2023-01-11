@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Picallti" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bleu</item>
+        <item name="colorPrimaryVariant">@color/bleu</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/bleu_ciel</item>
+        <item name="colorSecondaryVariant">@color/bleu</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Night Mode  -->
+    <style name="SCREEN">
+        <item name="backgroundColor">#292727</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="backgroundColor">#FFF</item>
+    </style>
+
+    <style name="BUTTON">
+        <item name="backgroundColor">#5B678F</item>
+    </style>
+</resources>
